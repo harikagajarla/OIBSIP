@@ -32,10 +32,14 @@ def build_entries():
                 "what is your name",
                 "introduce yourself",
                 "tell me about yourself",
+                "how are you",
+                "how r u",
+                "how is your day",
             ),
             answer=(
                 "I am the Advanced Voice Assistant, a desktop assistant written in Python. "
-                "You can talk to me with your microphone or type your commands."
+                "I am doing well and ready to help. You can talk to me with your microphone "
+                "or type your commands."
             ),
         ),
         FAQEntry(
@@ -189,6 +193,7 @@ def build_entries():
             aliases=(
                 "what is python programming",
                 "what is python language",
+                "python",
             ),
             keywords=("python",),
             answer=(
