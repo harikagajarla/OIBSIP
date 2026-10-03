@@ -1,0 +1,34 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Secrets (this project needs none, but never commit them)
+.env
+.env.*
+!.env.example
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+Thumbs.db
+.DS_Store
+
+# Editor settings
+.vscode/
+.idea/
+
+# Local SQLite databases (personal records stay on your machine)
+data/*.db
+data/*.db-*
+data/*.sqlite
+data/*.sqlite3

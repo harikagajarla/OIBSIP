@@ -1,0 +1,5 @@
+# Runtime dependency (tkinter and sqlite3 ship with Python)
+matplotlib>=3.8,<4
+
+# Testing
+pytest>=8.0
